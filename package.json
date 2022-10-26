@@ -1,0 +1,24 @@
+{
+  "name": "excel-course",
+  "version": "1.0.0",
+  "description": "Pure SavaScript Excel Application",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daria-Kuzminykh/excel-course.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "excel"
+  ],
+  "author": "Daria Kuzminykh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daria-Kuzminykh/excel-course/issues"
+  },
+  "homepage": "https://github.com/Daria-Kuzminykh/excel-course#readme"
+}
