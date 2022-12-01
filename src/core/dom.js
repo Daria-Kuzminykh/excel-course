@@ -29,6 +29,30 @@ class Dom {
     return this;
   }
 
+  closest(selector) {
+    return $(this.$el.closest(selector));
+  }
+
+  get data() {
+    return this.$el.dataset;
+  }
+
+  getCoords() {
+    return this.$el.getBoundingClientRect();
+  }
+
+  findAll(selector) {
+    return this.$el.querySelectorAll(selector);
+  }
+
+  css(styles = {}) {
+    Object
+        .entries(styles)
+        .forEach(([key, value]) => {
+          this.$el.style[key] = value;
+        });
+  }
+
   on(eventType, callback) {
     this.$el.addEventListener(eventType, callback);
   }
