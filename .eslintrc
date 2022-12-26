@@ -8,6 +8,7 @@
     "rules": {
         "arrow-parens": "off",
         "operator-linebreak": "off",
+        "no-case-declarations": "off",
         "require-jsdoc": "off",
         "max-len": ["error", 120]
     },
